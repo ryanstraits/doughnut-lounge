@@ -13,17 +13,17 @@ html {
 body,
 h1,
 h2,
-h3,
+h3 {font-weight: 150},
 h4,
 h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .lead {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 800;
 }
 
 .intro-header {
@@ -44,8 +44,8 @@ h6 {
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+    font-size: 5;
 }
 
 .intro-divider {
