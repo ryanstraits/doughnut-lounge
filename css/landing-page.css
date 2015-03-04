@@ -8,17 +8,23 @@ body,
 html {
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
 }
 
 body,
 h1,
 h2,
-h3 {font-weight: 150},
+h3 {
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    },
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
 }
 
 .lead {
@@ -58,9 +64,9 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
-@media(max-width:767px) {
+@media(max-width:850px) {
     .intro-message {
-        padding-bottom: 15%;
+        padding-bottom: 50%;
     }
 
     .intro-message > h1 {
@@ -89,7 +95,7 @@ h6 {
     letter-spacing: 2px;
 }
 
-.content-section-a {
+/*.content-section-a {
     padding: 50px 0;
     background-color: #000000;
 }
@@ -155,13 +161,15 @@ h6 {
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
-}
+}*/
 
 footer {
-    padding: 15px 0;
+    position: fixed;
+    bottom: 0px;
     background-color: #000000;
 }
 
 p.copyright {
-    margin: 15px 0 0;
+    padding-top: 50px;
+    margin: 15px;
 }
